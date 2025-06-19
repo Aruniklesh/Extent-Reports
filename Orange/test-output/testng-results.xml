@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-19T12:56:45Z" name="Default suite" finished-at="2025-06-19T12:56:47Z" duration-ms="2433">
+    <groups>
+    </groups>
+    <test started-at="2025-06-19T12:56:45Z" name="Default test" finished-at="2025-06-19T12:56:47Z" duration-ms="2433">
+      <class name="Testcases.SampleTest">
+        <test-method is-config="true" signature="configload()[pri:0, instance:Testcases.SampleTest@7d3e8655]" started-at="2025-06-19T12:56:40Z" name="configload" finished-at="2025-06-19T12:56:40Z" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configload -->
+        <test-method is-config="true" signature="loadBrowser()[pri:0, instance:Testcases.SampleTest@7d3e8655]" started-at="2025-06-19T12:56:40Z" name="loadBrowser" finished-at="2025-06-19T12:56:45Z" depends-on-methods="Config.ConfigReader.configload" duration-ms="4294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBrowser -->
+        <test-method signature="enteremail()[pri:1, instance:Testcases.SampleTest@7d3e8655]" started-at="2025-06-19T12:56:45Z" name="enteremail" finished-at="2025-06-19T12:56:45Z" duration-ms="862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteremail -->
+        <test-method signature="enterpassword()[pri:2, instance:Testcases.SampleTest@7d3e8655]" started-at="2025-06-19T12:56:45Z" name="enterpassword" finished-at="2025-06-19T12:56:47Z" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.SampleTest@7d3e8655]" started-at="2025-06-19T12:56:47Z" name="tearDown" finished-at="2025-06-19T12:56:48Z" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
